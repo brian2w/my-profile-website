@@ -1,0 +1,376 @@
+/* Global */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background: #f4f4f4;
+
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+
+    overflow: hidden;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Header */
+header{
+    background-color: rgb(15, 41, 44);
+    padding: 0;
+    position: relative;
+}
+
+header .container{
+    height: 60px;
+}
+
+header h1{
+    float: left;
+    padding: 0px;
+    color: white;
+    text-decoration: underline;
+}
+
+header h1{
+    font-size: 40px;
+    padding: 0px 30px;
+    border-radius: 15px;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header ul{
+    float: right;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+header ul{
+    border-radius: 15px;
+    
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+header li{
+    list-style: none;
+    padding: 0 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header img{
+    width: 40px;
+    padding: 0;
+    border-radius: 7px;
+}
+
+/* Showcase */
+#showcase{
+    background: url(../images/windows_xp_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: inset 0 0 5px 2px #282a2d;
+    position: relative;
+}
+
+#showcase .dropdown{
+    margin: 40px;
+    
+    align-items: center;
+}
+
+#showcase .dropdown .profile_wrap{
+    text-align: center;
+}
+
+#showcase #brian_image{
+    text-align: center;
+    width: 250px;
+    border-radius: 1000px;
+    margin: auto;
+}
+
+#showcase #brian_image img{
+    width: 250px;
+    border-radius: 1000px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Dropdown */
+.dropdown-content{
+    display:none;
+    position: relative;
+    background-color: rgb(205, 249, 255);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: opacity 0.25s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dropdown-content p{
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 23px;
+}
+
+.dropdown-content p:hover{
+    background-color: #f1f1f1;
+    opacity: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* About */
+.about{
+    border: 3px black solid;
+}
+
+body .neural_background{
+    position: absolute;
+    
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    
+    align-items: center;
+    
+    position: fixed;
+    z-index: 0;
+}
+
+.about .container{
+    border-radius: 15px;
+    padding: 0px 20px;
+    
+    
+    
+    position: relative;
+}
+
+.about .about_first h1{
+    text-decoration: underline;
+    font-size: 35px;
+    color: white;
+    
+}
+
+.about .about_box{
+    width: 30%;
+    
+    float: left;
+    padding: 10px 40px;
+    margin: 0px 18px;
+    border-radius: 15px;
+    height: 500px;
+    box-sizing: border-box;
+    background: rgb(1, 78, 87);
+    color: white;
+    box-shadow: inset 0 0 5px 2px #282a2d;
+
+}
+
+.about .about_box h2{
+    text-decoration: underline;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.about .about_box p{
+    font-size: large;
+}
+
+.about .about_box #emoji{
+    text-align: center;
+    font-size: 40px;
+}
+
+.about .why{
+    width: 30%;
+    float: left;
+
+    padding: 20px;
+    margin: 0px 18px;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 500px;
+    box-sizing: border-box;
+    
+}
+
+.about .stats{
+    width: 30%;
+    float: right;
+
+    padding: 20px;
+    margin: 0px 18px;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+/* Hobbies */
+.hobbies{
+    margin: 20px 0px;
+    
+    
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: rgb(1, 78, 87);
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 5px 2px #282a2d;
+}
+
+.hobbies h2{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.hobbies h3{
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hobbies .video_games{
+    
+    border-radius: 15px;
+}
+
+.hobbies .video_games video{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hobbies .sport img{
+    width: 100%;
+}
+
+.hobbies .pc_building {
+    padding-bottom: 20px;
+}
+
+/* Hover Effect */
+.image{
+    position: relative;
+    width: 100%;
+}
+
+.image__img{
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 15px;
+}
+
+.image__overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+    width: 70%;
+    text-align: center;
+}
+
+.image__overlay:hover{
+    opacity: 1;
+}
+
+.image__overlay:hover > *{
+    transform: translateY(0px);
+}
+
+.image__title{
+    font-size:2em;
+    font-weight: bold;
+}
+
+.image__description{
+    font-size: 1.25em;
+    margin-top: 0.25;
+}
+
+.hobbies .pc_building img{
+    width: 100%;
+}
+
+/* My Video */
+.video{
+    position: relative;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.video .container h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.video .container p{
+    font-size: large;
+    text-align: center;
+}
+
+.video .container{
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: rgb(1, 78, 87);
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 5px 2px #282a2d;
+    width: 1040px;
+}
+
+.video .insert_video{
+    text-align: center;
+}
+
+.video .insert_video .insert_video_yt{
+    border: 3px solid black;
+    border-radius: 15px;
+}
